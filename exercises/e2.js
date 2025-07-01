@@ -24,7 +24,6 @@ function homeArea() {
   const room1 = rectArea(4, 6);
   const room2 = rectArea(13, 3);
   const room3 = rectArea(4, 8);
-  return(room1 + room2 + room3);
 }
 
 
