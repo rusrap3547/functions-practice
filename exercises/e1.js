@@ -18,7 +18,6 @@
 function logMessage() {
   console.log("Hello, World!");
 }
-logMessage();
 
 
 
@@ -34,11 +33,9 @@ logMessage();
 */
 
 // Your code goes here...
-function logMyMessage(myMessage){
-  console.log(myMessage)
+function logMyMessage(message) {
+  console.log(message);
 }
-
-logMyMessage("Hello, World")
 
 /**
  * ===============================================================
@@ -52,11 +49,11 @@ logMyMessage("Hello, World")
 
 // Your code goes here...
 
-function logMessageWithMyName(string) {
-  console.log(`My name is , ${string}`)
+function logMessageWithMyName(name) {
+  console.log(`My name is ${name}!`)
 }
 
-logMessageWithMyName('Russ')
+// logMessageWithMyName('Russ')
 
 
 /**
@@ -72,7 +69,7 @@ logMessageWithMyName('Russ')
 
 // Your code goes here...
 function logMyInfo(string, number){
-  console.log(`My name is ${string}, I am ${number} years old!`);
+  console.log(`My name is ${string}. I am ${number} years old!`);
 }
 
 logMyInfo('Russ', 34)

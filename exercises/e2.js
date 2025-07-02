@@ -20,11 +20,10 @@ function rectArea(x, y) {
 // Data for calculation: room1: 4 by 6, room2: 13 by 3, room3: 4 by 8
 
 // Your code goes here:
-function homeArea() {
+
   const room1 = rectArea(4, 6);
   const room2 = rectArea(13, 3);
   const room3 = rectArea(4, 8);
-}
 
 
 /**
@@ -49,7 +48,7 @@ totalRoomsArea(24, 35, 24)
 const result = function () {
     console.log(totalRoomsArea(room1, room2, room3));
 }
-
+result();
 
 
 // === TEST YOURSELF ===
